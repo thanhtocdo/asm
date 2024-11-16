@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/qlsp"
+        android:title="Quan ly san pham"
+        android:icon="@drawable/baseline_approval_24"/>
+
+    <item
+        android:id="@+id/gioithieu"
+        android:title="Gioi thieu"
+        android:icon="@drawable/baseline_all_inclusive_24"/>
+
+    <item android:title="Khac">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:title="Cai dat"
+                android:icon="@drawable/baseline_settings_24"/>
+
+            <item
+                android:id="@+id/logout"
+                android:title="Thoat"
+                android:icon="@drawable/baseline_logout_24"/>
+
+        </menu>
+    </item>
+</menu>
