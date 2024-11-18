@@ -2,5 +2,7 @@
     <string name="app_name">AD2_ASM</string>
     <string name="forgot_password"><u>forgot password</u></string>
     <string name="sign_up">Don\'t have an account? <b>Sign up</b></string>
+    <string name="chinh_sua"><u>Chinh sua</u></string>
+    <string name="xoa"><u>Xoa</u></string>
 
 </resources>

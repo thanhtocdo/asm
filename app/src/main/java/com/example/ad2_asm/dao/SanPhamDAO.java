@@ -9,10 +9,10 @@ import com.example.ad2_asm.model.Product;
 
 import java.util.ArrayList;
 
-public class SanphamDAO {
+public class SanPhamDAO {
     private DBHelper dbHelper;
 
-    public SanphamDAO(Context context) {
+    public SanPhamDAO(Context context) {
         dbHelper = new DBHelper(context);
     }
 
