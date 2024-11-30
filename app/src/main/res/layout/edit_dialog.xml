@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#32FFD600">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Them san pham moi"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edtTenSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ten san pham" />
+
+        <EditText
+            android:id="@+id/edtGiaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap gia san pham" />
+
+        <EditText
+            android:id="@+id/edtSLSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap so luong san pham" />
+        
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Them" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Huy" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
